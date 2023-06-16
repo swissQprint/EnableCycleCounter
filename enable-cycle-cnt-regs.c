@@ -29,3 +29,10 @@ int init_module(void) {
  
 void cleanup_module(void) {
 }
+
+
+MODULE_LICENSE("MIT");
+MODULE_AUTHOR("swissQprint");
+MODULE_DESCRIPTION("performance monitoring registers - cycle count register");
+MODULE_VERSION("1.0");
+
