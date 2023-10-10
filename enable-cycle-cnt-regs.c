@@ -1,4 +1,12 @@
-// https://matthewarcus.wordpress.com/2018/01/27/using-the-cycle-counter-registers-on-the-raspberry-pi-3/
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Enable performance monitoring registers - cycle count registers
+ *
+ * Copyright (c) 2018 Matthew Arcus and 2020 swissQprint
+ * Author: Matthew Arcus and Bernd Sprenger 
+ * https://matthewarcus.wordpress.com/2018/01/27/using-the-cycle-counter-registers-on-the-raspberry-pi-3/
+ */
+
 
 #include <linux/module.h>
 #include <linux/kernel.h>
@@ -31,8 +39,8 @@ void cleanup_module(void) {
 }
 
 
-MODULE_LICENSE("MIT");
+MODULE_LICENSE("GPL v2");
 MODULE_AUTHOR("swissQprint");
-MODULE_DESCRIPTION("performance monitoring registers - cycle count register");
+MODULE_DESCRIPTION("Enable performance monitoring registers - cycle count registers");
 MODULE_VERSION("1.0");
 
